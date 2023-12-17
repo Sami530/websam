@@ -8,17 +8,18 @@ body {
     align-items: center;
     min-height: 100vh;
 }
-.imgset{
+
+.imgset {
     float: right;
-    width: 30%; /* Adjust the width of the image content */
-    margin-left: 20px; /* Add left margin for spacing */
+    width: 30%;
+    margin-left: 20px;
     max-width: 100%;
     height: auto;
 }
 
 .container {
     width: 80%;
-    padding-left: 20px; /* Add left padding for spacing */
+    padding-left: 20px;
 }
 
 header, nav, section, footer {
@@ -80,6 +81,12 @@ footer {
         width: 90%;
     }
 
+    .imgset {
+        float: none;
+        width: 100%;
+        margin-left: 0;
+    }
+
     nav {
         font-size: 14px;
     }
@@ -110,3 +117,4 @@ footer {
         margin-bottom: 20px;
     }
 }
+
